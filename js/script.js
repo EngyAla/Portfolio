@@ -30,7 +30,8 @@
     "Git & GitHub",
     "UI/UX",
     "jQuery",
-    "TypeScript"
+    "TypeScript",
+    "MUI"
     ];
     let skills = document.querySelector(".skill_button");
     skills.innerHTML = skillsArr

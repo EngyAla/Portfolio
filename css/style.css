@@ -271,7 +271,7 @@ a{
 }
 .project{
     border: 2px solid rgba(184, 183, 183, 0.159);
-    width: 300px;
+    width: 80%;
     height: 420px;
     border-radius: 5px;
     transition: .32s ease;
@@ -334,6 +334,9 @@ a{
 }
 
 @media screen and (max-width: 920px){
+    .parent{
+        width: 95%;
+    }
     .head_container{
     /* background-color: red; */
     width: 100%;
@@ -345,5 +348,8 @@ a{
 .header{
     border-radius: 0px;
     width: 100%;
+}
+.project{
+    margin-left: -40px;
 }
 }
