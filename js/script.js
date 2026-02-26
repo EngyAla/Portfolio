@@ -88,8 +88,8 @@
         description:
         "A web app demonstrating Create, Read, Update, and Delete operations, allowing efficient data handling with a user-friendly interface.",
         img_src: "img/CRUD_Operations_Banner.png",
-        repo: "",
-        githup: "",
+        repo: "https://github.com/EngyAla/CRUD",
+        githup: "https://engyala.github.io/CRUD/",
     },
     {
         id: "react",
@@ -115,7 +115,7 @@
         description:
         "A dynamic dashboard built with React.js featuring data visualization, charts, and CRUD operations, enabling easy management and real-time insights.",
         img_src: "img/600x0_Influencer-Dashboard.png",
-        repo: "https://admin-dashboard-79f47.web.app/",
+        repo: "https://github.com/EngyAla/DashBoard",
         githup: "https://admin-dashboard-79f47.web.app/",
     },
     {
@@ -150,8 +150,8 @@
                             <p class="proj_description">${e.description}</p>
                         </div>
                         <div class="proj_icons proj_text">
-                            <a href=${e.repo} target="_blank"><i class="fa-solid fa-link"></i></a>
-                            <a href=${e.githup} target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href=${e.githup} target="_blank"><i class="fa-solid fa-link"></i></a>
+                            <a href=${e.repo} target="_blank"><i class="fa-brands fa-github"></i></a>
                         </div>
                     </div>`;
     })
